@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name			= 'INAppStoreWindow'
-	s.version		= '1.2'
+	s.version		= '1.3'
 	s.summary		= 'Mac App Store style NSWindow subclass'
 	s.homepage		= 'https://github.com/indragiek/INAppStoreWindow'
 	s.author   		= { 'Indragie Karunaratne' => 'indragiek@gmail.com' }

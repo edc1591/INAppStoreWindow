@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 	s.homepage		= 'https://github.com/indragiek/INAppStoreWindow'
 	s.author   		= { 'Indragie Karunaratne' => 'indragiek@gmail.com' }
 	s.source_files	= '*.{h,m}'
-	s.source   		= { :git => 'https://github.com/indragiek/INAppStoreWindow.git', :tag => 'v1.2' }
+	s.source   		= { :git => 'https://github.com/edc1591/INAppStoreWindow.git', :head }
 	s.clean_paths	= 'SampleApp'
 	s.platform 		= :osx
 	s.requires_arc 	= true

@@ -233,7 +233,7 @@ NS_INLINE CGGradientRef INCreateGradientWithColors(NSColor *startingColor, NSCol
             [[NSBezierPath bezierPathWithRect:self.bounds] fill];
         }
         #endif
-        clippingRect.size.height -= 1;        
+        //clippingRect.size.height -= 1;        
         CGPathRef clippingPath = INCreateClippingPathWithRectAndRadius(clippingRect, INCornerClipRadius);
         CGContextAddPath(context, clippingPath);
         CGContextClip(context);
